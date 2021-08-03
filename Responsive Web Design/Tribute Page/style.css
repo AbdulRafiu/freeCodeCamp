@@ -1,0 +1,25 @@
+body {
+    font-family: "Segoe UI", "Roboto",
+      "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }
+  #img-caption {
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png" id="header-img" alt="">
+        <div id="nav-bar-right">
+          <a class="active nav-link" href="#info">Info</a>
+          <a class="nav-link" href="#form">Contact</a>
+          <a class="nav-link" href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+    <section id="info">
+      <h1>Airpors Pro</h1>
+      <p>Starting from $200</p>
+    </section>
+    <iframe id="video" src="https://www.youtube.com/embed/BaLHthRsqQk" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <h2>Subscribe to our news letter</h2>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input type="submit" id="submit" value="Get Started" />
+    </form>
+    <footer id="about"></footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
